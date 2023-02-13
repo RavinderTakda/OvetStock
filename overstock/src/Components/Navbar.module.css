@@ -1,0 +1,85 @@
+
+.navbar{
+  width: 97%;
+       
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           margin: auto;
+            
+}
+
+
+.navbarlogo{
+    width: 150px;
+    height: 90px;
+   
+    /* border: 1px solid rgb(25, 0, 255); */
+}
+
+.navbarsearch{
+    width: 74%;
+    height: 30px;
+    /* border: 1px solid rgb(9, 255, 0); */
+    margin: auto;
+}
+
+.navbarinput{
+    width: 100%;
+    height: 30px;
+}
+
+
+.navbaraccount{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid rgb(255, 234, 0); */
+    margin-top: 15px;
+}
+
+.navbarh6{
+    margin-top: -15px;
+}
+
+
+.navbarline{
+    margin-top: -4px;
+}
+
+
+.navbarhome{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: -13px;
+}
+
+
+.hovers{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-left: 18px;
+   text-align: left;
+}
+
+
+.accounthover{
+    position: relative;
+    display: inline-block;
+}
+
+.accounthover:hover>.hovers{
+    display: block;
+   
+}

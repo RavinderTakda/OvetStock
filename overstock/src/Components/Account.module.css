@@ -1,0 +1,141 @@
+
+
+.account{
+    display: flex;
+   justify-content: space-around;
+    /* width: 50%; */
+    margin: auto;
+
+}
+
+
+.accountcreate{
+    /* border: 1px solid red; */
+    text-align: left;
+    width: 50%;
+    margin-left: 10%;
+}
+
+
+.accountcreateexclusive{
+   
+    border: 0.1px solid grey;
+    width: 50%;
+    text-align: center;
+    background-color: #f9fafc;
+   margin-top: 10px;
+}
+
+
+
+.accountcreateguest{
+   
+    /* border: 0.1px solid grey; */
+    width: 48%;
+    text-align: center;
+    background-color: #f9fafc;
+   margin-top: 15px;
+   color: gray;
+   font-size: 13px;
+}
+
+
+.accountcreateunsubscribe{
+    /* border: 1px solid black; */
+    width: 48%;
+    text-align: center;
+    line-height: 9px;
+    font-size: 11px;
+    margin-top: 20px;
+}
+
+
+.accountcreatebutton{
+    background-color:#0272a2;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+
+.accountcreate>h1{
+    /* border: 1px solid red; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.accountcreate>input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 50%;
+    border-radius: 3px;
+}
+
+.accountcreate>div>input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 50%;
+    border-radius: 3px;
+}
+
+.accountlogin{
+    /* border: 1px solid rebeccapurple; */
+    width: 20%;
+    text-align: left;
+    margin-right: 20%;
+}
+
+
+.accountreturn{
+     /* border: 1px solid red; */
+    text-align: left;
+    margin-top: 70px;
+   
+}
+
+.accountreturn>p{
+   font-size: 12px;
+   line-height: 10px;
+}
+
+
+.accountlogin>h2{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.accountlogin>div{
+    background-color:#27865f;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 3px;
+    text-align: center;
+  
+}
+
+
+.accountlogin>u{
+    color: blue;
+ padding-left: 60px;
+
+ line-height: 40px;
+    
+}
+
+.accountlogin>input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+    border-radius: 3px;
+}

@@ -1,0 +1,54 @@
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #545658;
+    color: white;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   
+    
+}
+
+
+.footeraccount{
+
+    text-align: left;
+}
+
+.footeraccount>p{
+    font-size: 15px;
+}
+
+
+
+.footercopyright{
+  
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding-right: 40px;
+    padding-left: 80px;
+    background-color: #2f3337;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.footercoliseum{
+    font-size: 10px;
+    color: white;
+   
+}
+
+
+
+.footercondition{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    color: white;
+ 
+}
